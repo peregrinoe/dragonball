@@ -1,0 +1,244 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200&display=swap');
+
+@font-face{
+    font-family: "friends";
+    src: url("src/fonts/friends.TTF");
+  }
+
+  @font-face{
+    font-family: "Perk";
+    src: url("src/fonts/Sunday_Best.ttf");
+  }
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: grid;
+}
+
+.list-navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    align-items: center;
+    text-align: center;
+    align-content: center; 
+}
+
+.navbar .list-navbar a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container-slide{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, #8a6cc8, #f5e458);
+    display: grid;
+    background-image: url(src/Friends\ copia.png);
+    object-fit: cover;
+    
+}
+
+.info-quiz{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #fefefe3b;
+    border-radius: 20px;
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    backdrop-filter: blur(30px);
+}
+.info{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.btn-start{
+    margin: auto;
+    font-size: 12px;
+    color: #0e0e0e !important;
+}
+
+.container{
+    background: linear-gradient(to bottom, #8a6cc8, #f5e458);
+    display: grid;
+    grid-template-columns: .7fr 1.3fr;
+    padding-top: 30px;
+}
+
+.container-body-potter{
+    display: grid;
+    grid-template-columns: .7fr 1.3fr;
+    background: linear-gradient(to bottom, #6cc87b, #f5e458);
+    padding-top: 30px;
+}
+
+.container-one-piece{
+    display: grid;
+    grid-template-columns: .7fr 1.3fr;
+    background: linear-gradient(to bottom, #db0b0b, #f058f5);
+    padding-top: 30px;
+}
+
+.container-middle{
+    display: none;
+}
+
+.container-left{
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr;
+    background-color: #fefefe3b;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: 30px;
+    backdrop-filter: blur(30px);
+}
+
+.container-left-items{
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+span{
+    font-family: "friends";
+    color: #fefefe;
+    font-size: 2em;
+}
+
+span.friends{
+    font-family: "friends";
+    color: #e0e0e0;
+    -webkit-text-stroke: .01px black;
+}
+
+span.red{
+    font-family: "friends";
+    color: #ea181e;
+}
+
+span.blue{
+    font-family: "friends";
+    color: #00b3e8;
+}
+
+span.yellow{
+    font-family: "friends";
+    color: #fabd0f;
+}
+
+.container-right{
+    display: grid;
+    background-color: #fefefe;
+    border-top-left-radius: 20px;
+    box-shadow: 5px 5px 20px #222222b0;
+
+}
+
+.container-right-items{
+    display: grid;
+    grid-template-rows: .2fr 1.3fr 1fr 2fr;
+    margin: 50px;
+    height: 700px;
+}
+
+.if-true{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #8a6cc8;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.titule{
+    color: #555353;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.question{
+    justify-self: center;
+    color: #8a6cc8;
+    width: 95%;
+    margin: auto 0px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+   
+.image{
+    margin-left: 2px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    justify-self: center;
+    object-fit: cover;
+    width: 80%;
+    max-height: 400px;
+}
+
+.image2{
+    border-radius: 20px;
+    margin-top: 40px;
+    background-size: cover;
+    background-position: center;
+    justify-self: center;
+    width: 95%;
+}
+
+.answer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    grid-gap: 5px auto;
+}
+
+.btn{
+    justify-self: center;
+    margin: auto 0px;
+    width: 95%;
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #f5e458;
+    color: #0e0e0e;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+

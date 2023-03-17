@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1500px) {
+    .container-left-items span{
+        font-size: 2em;
+    }
+
+    .container-left-items span.friends{
+        font-size: 2em;
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .container-left-items span{
+        font-size: 1.5em;
+    }
+
+    .container-left-items span.friends{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-left-items span{
+        font-size: 1.2em;
+    }
+
+    .container-left-items span.friends{
+        font-size: 1.2em;
+    }
+}
+
+.btn-start span{
+    font-size: 1.2em;
+    color: #0e0e0e;
+}
+
+.btn-start span.friends{
+    font-size: 1.2em;
+}
+
+.btn-start span.red{
+    font-family: "friends";
+    color: #ea181e;
+}
+
+.btn-start span.blue{
+    font-family: "friends";
+    color: #00b3e8;
+}
+
+.btn-start span.yellow{
+    font-family: "friends";
+    color: #fabd0f;
+}
+
+@media only screen and (max-width: 885px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 0px;
+    }
+
+    .container-middle{
+        display: grid;
+        background-color: #fefefe3b;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        border-bottom-left-radius:15px ;
+        border-bottom-right-radius:15px ;
+        height: 50px;
+        width: 70%;
+
+    }
+
+    .container-body-potter{
+        grid-template-columns: 1fr;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .container-one-piece{
+        grid-template-columns: 1fr;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+
+    .container-left{
+        display: none;
+    }
+
+    .container-right{
+        display: grid;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        padding: 10px 10px;
+        border-radius: 15px;
+        width: 90%;
+    }
+
+    .container-right-items{
+        display: grid;
+        margin: 10px;
+    }
+
+    .answer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+
+    .btn{
+        width: 90%;
+    }
+
+    .image{
+        width: 95%;
+        height: 95%;
+    }
+
+    .info{
+        font-size: 1em;
+    }
+}    
+
+@media only screen and (max-width: 500px) {
+
+    .container-right-items{
+        margin: 10px;
+    }
+
+    .container-right-items{
+        grid-template-rows: .2fr .8fr 2fr 1.6fr;
+    }
+  
+}    
+
+ 
