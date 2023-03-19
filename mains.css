@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200&display=swap');
 
 @font-face{
-    font-family: "friends";
-    src: url("src/fonts/friends.TTF");
+    font-family: "dragonbz";
+    src: url("src/fonts/Saiyan-Sans.ttf");
   }
 
   @font-face{
@@ -19,6 +19,10 @@
     text-decoration: none;
     transition: all .3s;
 }
+
+html, body {
+    height: 100%;
+  }
 
 .navbar{
     width: 90%;
@@ -87,27 +91,11 @@
     padding-top: 30px;
 }
 
-.container-body-potter{
-    display: grid;
-    grid-template-columns: .7fr 1.3fr;
-    background: linear-gradient(to bottom, #6cc87b, #f5e458);
-    padding-top: 30px;
-}
-
-.container-one-piece{
-    display: grid;
-    grid-template-columns: .7fr 1.3fr;
-    background: linear-gradient(to bottom, #db0b0b, #f058f5);
-    padding-top: 30px;
-}
-
 .container-middle{
     display: none;
 }
 
 .container-left{
-    display: grid;
-    grid-template-rows: 1fr 3fr 2fr;
     background-color: #fefefe3b;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -127,30 +115,31 @@
 }
 
 span{
-    font-family: "friends";
+    font-family: "dragonbz";
     color: #fefefe;
     font-size: 2em;
 }
 
-span.friends{
-    font-family: "friends";
+span.dragon{
+    font-family: "dragonbz";
     color: #e0e0e0;
     -webkit-text-stroke: .01px black;
 }
 
-span.red{
-    font-family: "friends";
+
+span.o{
+    font-family: "dragonbz";
     color: #ea181e;
 }
 
-span.blue{
-    font-family: "friends";
-    color: #00b3e8;
+span.ball{
+    font-family: "dragonbz";
+    color: #ea181e;
 }
 
-span.yellow{
-    font-family: "friends";
-    color: #fabd0f;
+span.z{
+    font-family: "dragonbz";
+    color: #00b3e8;
 }
 
 .container-right{
@@ -212,6 +201,7 @@ span.yellow{
 .image2{
     border-radius: 20px;
     margin-top: 40px;
+    margin-bottom: 40px;
     background-size: cover;
     background-position: center;
     justify-self: center;
