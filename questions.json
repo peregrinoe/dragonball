@@ -11,5 +11,31 @@
         "image2":"https://static.wikia.nocookie.net/dragonball/images/8/8a/Tortuga.png/revision/latest?cb=20130220073534&path-prefix=es",
         "image3":"https://i.pinimg.com/474x/91/7f/f0/917ff0c8f94558ff60f6ee3c6bf3866d.jpg",
         "object_fit":"cover"
+    },
+    {   
+        "temporada":"Dragon Ball",
+        "pregunta":"¿Quién fue el creador de Dragon Ball?",
+        "ifverdadero":"El manga contaba la historia de una niña androide tan bien fabricada que todos pensaban que era una niña real con superpoderes. Pero Dr. Slump fue el laboratorio perfecto para que el joven autor comenzara a explorar elementos que luego serían clave para crear el mundo de Dragon Ball",
+        "respuesta":"Akira Toriyama",
+        "incorrecta1":"Takeshi Kitano",
+        "incorrecta2":"Eishiro Oda",
+        "incorrecta3":"Tasuki Takahashi",
+        "image":"https://cdn.shopify.com/s/files/1/0025/9384/9457/articles/akira_toriyama_videojuegos.jpg?v=1617902874&width=2048",
+        "image2":"https://static.wikia.nocookie.net/dragonball/images/8/8a/Tortuga.png/revision/latest?cb=20130220073534&path-prefix=es",
+        "image3":"https://i.pinimg.com/474x/91/7f/f0/917ff0c8f94558ff60f6ee3c6bf3866d.jpg",
+        "object_fit":"cover"
+    }, 
+    {   
+        "temporada":"Dragon Ball",
+        "pregunta":"¿Quién fue el creador de Dragon Ball?",
+        "ifverdadero":"El manga contaba la historia de una niña androide tan bien fabricada que todos pensaban que era una niña real con superpoderes. Pero Dr. Slump fue el laboratorio perfecto para que el joven autor comenzara a explorar elementos que luego serían clave para crear el mundo de Dragon Ball",
+        "respuesta":"Akira Toriyama",
+        "incorrecta1":"Takeshi Kitano",
+        "incorrecta2":"Eishiro Oda",
+        "incorrecta3":"Tasuki Takahashi",
+        "image":"https://cdn.shopify.com/s/files/1/0025/9384/9457/articles/akira_toriyama_videojuegos.jpg?v=1617902874&width=2048",
+        "image2":"https://static.wikia.nocookie.net/dragonball/images/8/8a/Tortuga.png/revision/latest?cb=20130220073534&path-prefix=es",
+        "image3":"https://i.pinimg.com/474x/91/7f/f0/917ff0c8f94558ff60f6ee3c6bf3866d.jpg",
+        "object_fit":"cover"
     }
 ]
